@@ -20,6 +20,11 @@ RSpec.describe DadJoke, type: :model do
 		it 'should have a total of 0 rated votes' do
 			expect(dad_joke.votes.count).to eq 0
 		end
+
+		it 'should have a Daddy' do
+			expect(dad_joke.daddy). to eq "Father Anonymous"
+		end
+
 	end
 
 	context 'a just voted on joke' do
