@@ -4,6 +4,7 @@ class CreateDadJokes < ActiveRecord::Migration
       t.string :joke
       t.string :answer
       t.float :rating
+      t.integer :rated_votes
 
       t.timestamps null: false
     end
