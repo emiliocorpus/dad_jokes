@@ -7,7 +7,7 @@ RSpec.describe DadJoke, type: :model do
 		expect(dad_joke.answer).to eq "Because they have cheetahs."
 	end
 	it 'should have a rating of 0 for a freshly made joke' do
-		expect(dad_joke.rating).to eq 0
+		expect(dad_joke.rating).to eq 0.00
 	end
 	
 end
