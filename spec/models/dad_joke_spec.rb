@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe DadJoke, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+	let(:dad_joke) { DadJoke.create}
+	it 'should have a joke' do
+		expec
+	end
 end
