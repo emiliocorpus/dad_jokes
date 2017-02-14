@@ -5,6 +5,12 @@ class DadJoke < ActiveRecord::Base
 		self.rating = 0.00
 	end
 
+	after_initialize :init
+
+    def init
+      self.daddy  ||= "Father Anonymous"
+    end
+
 	def calculate_rating
 		sum = 0.00
 		self.votes.each do |vote|
