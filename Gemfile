@@ -11,7 +11,8 @@ gem 'figaro'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'oauth2'
 gem 'rails_12factor'
-gem "react_on_rails", "~> 6.5.1"
+# gem "react_on_rails", "~> 6.5.1"
+gem "react-rails"
 gem 'nokogiri', '~> 1.6.8.1'
 gem 'foreman'
 gem 'turbolinks'
